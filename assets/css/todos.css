@@ -1,3 +1,10 @@
+body {
+	font-family: Roboto;
+	background: #7474BF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 h1 {
 	background: #2980b9;
 	color: white;
@@ -8,24 +15,10 @@ h1 {
 	font-weight: normal;
 }
 
-.fa-pencil-square-o {
-	float: right;
-}
-
-body {
-	background: #7474BF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	font-family: Roboto;
 }
 
 li {
@@ -33,10 +26,6 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
-}
-
-li:nth-child(2n) {
-	background: #f7f7f7;
 }
 
 span {
@@ -51,9 +40,17 @@ span {
 	opacity: 0;
 }
 
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
+
 li:hover span {
 	width: 40px;
 	opacity: 1.0;
+}
+
+.fa-pencil-square-o {
+	float: right;
 }
 
 input {
